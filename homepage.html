@@ -1,70 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Menu</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/baking_icon.png">
-</head>
-<body>
-    <div id="wrapper">
-        <div id="navbar">
-            <h1 id="name">Home Menu</h1>
-            <ul>
-                <li><a class="redirect" href="#">Home</a></li>
-                <li><a class="redirect" href="#">About</a></li>
-                <li><a class="redirect" href="#">Info</a></li>
-                <li><a class="redirect" href="#">Extra</a></li>
-            </ul>
+    <!-- browser icon  -->
+    <link rel="icon" href="http://example.com/favicon.png" />
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="navBar">
+        <h1>Home Menu</h1>
+      </div>
+      <div class="menu">
+        <div class="beverages">
+          <h2>Cocktails</h2>
         </div>
-        <div id="main">
-            <img src="images/bakery_storefront.jpeg" alt="bakery_storefront">
-            <div id="content">
-                <div id="goods">
-                    <div class="heading">
-                        <img src="images/baking_icon.png" alt="baking_icon">
-                        <h3>BAKED GOODS</h3>
-                    </div>
-                    <p>See what baked goods we offer. Goods baked fresh daily. Specials of the day!</p>
-                    <button> See More</button>
-                </div>
-                <div id="reviews">
-                    <div class="heading">
-                        <img src="images/baking_icon.png" alt="baking_icon">
-                        <h3>REVIEWS</h3>
-                    </div>
-                    <p>Want to see what people are saying about our baked goods and our customer service? </p>
-                    <button>See More</button>
-                </div>
-                <div id="events">
-                    <div class="heading">
-                        <img src="images/baking_icon.png" alt="baking_icon">
-                        <h3>EVENTS</h3>
-                    </div>
-                    <p>See how we can help host your next event with our catering services.</p>
-                    <button>See More</button>
-                </div>
+        <div>
+          <h3>WHISKEY</h3>
+          <div class="items">
+            <h5>Old Fashioned</h5>
+            <p>Bulliet Bourbon, sugar cane, orange, aromatic bitters</p>
+            <h5>Manhattan</h5>
+            <p>Old Forester Rye Whiskey, sweet vermouth, aromatic bitters</p>
+            <h5>Rye Hummingbird Down</h5>
+            <p>Old Forester Rye Whiskey, honey, lemon, chartreuse</p>
+            <h5>PB&J</h5>
+            <p>Bulliet Bourbon, peanut butter, lemon, strawberry, egg</p>
+            <p>* contains egg white</p>
+            <h5>Amaro Sour</h5>
+            <p>Bulliet Burbon, Averna Amaro, sugar cane, lemon egg</p>
+            <p>* contains egg white</p>
+            <h5>Avenue Scotch</h5>
+            <p>Mash Cut Blended Scotch, ginfer, passionfruit, lime</p>
+            <h5>Peach Tree Old Fashioned</h5>
+            <p>The Quiet Man Irish Blend, demerara, peach, orange bitters</p>
+            <h5>Billionaire</h5>
+            <p>Bulliet Bourbon, lemon, grenadine, sugar cane, absinthe</p>
+          </div>
+        </div>
+        <div>
+          <h3>GIN</h3>
+          <div class="items">
+            <h5>Negroni</h5>
+            <p>Plymouth Dry Gin, campari, sweet vermouth, orange</p>
+            <h5>The Bee's Knees</h5>
+            <p>St. George's Botanivore Gin, lemon, honey</p>
+            <p>*substitute gin for mezcal</p>
+            <h5>Accidental Tourist</h5>
+            <p>Beefeater London Dry Gin, peach, orgeat, lemon</p>
+            <h5>Blackberry Ramble</h5>
+            <p>St. George's Botanivore Gin, blackberry, lemon, sugar cane</p>
+            <h5>Army & Navy</h5>
+            <p>Plymouth Dry Gin, lemon, orgeat, aromatic bitters</p>
+          </div>
+        </div>
+        <div>
+          <h3>TEQUILA/MEZCAL</h3>
+          <div class="items">
+            <h5>Cadillac Margarita</h5>
+            <p>Espolon blanco tequila, grand marnier, agave nectar, lime</p>
+            <h5>Saladito</h5>
+            <p>
+              Los Vecino mezcal, honey, lime, cayenne pepper, pink hymalayan sea
+              salt
+            </p>
+            <h5>Camaron Coctel</h5>
+            <p>
+              Cazadores blanco tequila, Los Vecinos mezcal, lemon, roasted
+              orgeat
+            </p>
+            <h5>Chi Chi Torres</h5>
+            <p>
+              Casadores reposado tequila, poblano chile, passionfruit, lime,
+              habanero bitters
+            </p>
+            <h5>Quatro Verde</h5>
+            <p>Los Vecinos Mezcal, poblano chile, lime, agave nectar, basil</p>
+          </div>
+          <div>
+            <h3>RUM</h3>
+            <div class="items">
+              <h5>The Jacobo</h5>
+              <p>Anaversario Rum, coconut, aperol, lime</p>
+              <h5>Hotel Nacional</h5>
+              <p>Havana Club White Rum, apricot, pineapple, lime, sugar cane</p>
+              <h5>El President</h5>
+              <p>Havana Club White Rum, blanc vermouth, curacao, grenadine</p>
+              <h5>The Getaway Car</h5>
+              <p>
+                Apple Signature Aged Jamaician Rum, poblano chile, pineapple,
+                lime, sugar cane
+              </p>
             </div>
-            <div id="about">
-                <div id="about_title">
-                    <h3>We love to bake</h3>
-                    <img src="images/sourdough.jpeg" alt="sourdough">
-                </div>
-                <div id="mission_statement">
-                    <p>Since 1991, we have been baking locally, serving our community with artisinal style breads and pasteries. Over the decades we have grown and estbalished ourselves as a staple in our hometome of Location Unkown, CA. We strive to provide the most decadent, freshly baked goods using locally sources ingredients. </p>
-                </div>
-            </div>
+          </div>
         </div>
-        <div id="footer">
-            <ul class="footer_nav">
-                    <li><a class="redirect" href="#">Home</a></li>
-                    <li><a class="redirect" href="#">About</a></li>
-                    <li><a class="redirect" href="#">Info</a></li>
-                    <li><a class="redirect" href="#">Careers</a></li>
-            </ul>
-        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
+
