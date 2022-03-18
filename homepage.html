@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Menu</title>
     <!-- browser icon  -->
-    <link rel="icon" href="http://example.com/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="imgs/letterE.jpeg" />
     <!-- bootstrap -->
     <link
       rel="stylesheet"
@@ -14,42 +15,60 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Megrim&family=Monofett&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="wrapper">
-      <div class="navBar">
+    <div id="wrapper">
+      <div id="navBar">
+        <img src="imgs/letterE.jpeg" alt="logo" />
         <h1>Home Menu</h1>
       </div>
-      <div class="menu">
-        <div class="beverages">
-          <h2>Cocktails</h2>
-        </div>
-        <div>
+      <div id="menu">
+        <h2>COCKTAILS</h2>
+        <div id="beverages">
           <h3>WHISKEY</h3>
-          <div class="items">
-            <h5>Old Fashioned</h5>
-            <p>Bulliet Bourbon, sugar cane, orange, aromatic bitters</p>
-            <h5>Manhattan</h5>
-            <p>Old Forester Rye Whiskey, sweet vermouth, aromatic bitters</p>
-            <h5>Rye Hummingbird Down</h5>
-            <p>Old Forester Rye Whiskey, honey, lemon, chartreuse</p>
-            <h5>PB&J</h5>
-            <p>Bulliet Bourbon, peanut butter, lemon, strawberry, egg</p>
-            <p>* contains egg white</p>
-            <h5>Amaro Sour</h5>
-            <p>Bulliet Burbon, Averna Amaro, sugar cane, lemon egg</p>
-            <p>* contains egg white</p>
-            <h5>Avenue Scotch</h5>
-            <p>Mash Cut Blended Scotch, ginfer, passionfruit, lime</p>
-            <h5>Peach Tree Old Fashioned</h5>
-            <p>The Quiet Man Irish Blend, demerara, peach, orange bitters</p>
-            <h5>Billionaire</h5>
-            <p>Bulliet Bourbon, lemon, grenadine, sugar cane, absinthe</p>
+          <div id="menuDesign">
+            <div id="items">
+              <h5>Old Fashioned</h5>
+              <p>Bulliet Bourbon, sugar cane, orange, aromatic bitters</p>
+              <h5>Manhattan</h5>
+              <p>Old Forester Rye Whiskey, sweet vermouth, aromatic bitters</p>
+              <h5>Rye Hummingbird Down</h5>
+              <p>Old Forester Rye Whiskey, honey, lemon, chartreuse</p>
+              <h5>PB&J</h5>
+              <p>Bulliet Bourbon, peanut butter, lemon, strawberry, egg</p>
+              <p>* contains egg white</p>
+              <h5>Amaro Sour</h5>
+              <p>Bulliet Burbon, Averna Amaro, sugar cane, lemon egg</p>
+              <p>* contains egg white</p>
+              <h5>Avenue Scotch</h5>
+              <p>Mash Cut Blended Scotch, ginfer, passionfruit, lime</p>
+              <h5>Peach Tree Old Fashioned</h5>
+              <p>The Quiet Man Irish Blend, demerara, peach, orange bitters</p>
+              <h5>Billionaire</h5>
+              <p>Bulliet Bourbon, lemon, grenadine, sugar cane, absinthe</p>
+            </div>
+            <div id="design">
+              <p1>Freshly squeezed citrus</p1>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <p1>Quality spirits</p1>
+            </div>
           </div>
         </div>
         <div>
           <h3>GIN</h3>
-          <div class="items">
+          <div id="items">
             <h5>Negroni</h5>
             <p>Plymouth Dry Gin, campari, sweet vermouth, orange</p>
             <h5>The Bee's Knees</h5>
@@ -65,21 +84,30 @@
         </div>
         <div>
           <h3>TEQUILA/MEZCAL</h3>
-          <div class="items">
+          <div id="items">
             <h5>Cadillac Margarita</h5>
             <p>Espolon blanco tequila, grand marnier, agave nectar, lime</p>
             <h5>Saladito</h5>
-            <p>Los Vecino mezcal, honey, lime, cayenne pepper, pink hymalayan sea salt</p>
+            <p>
+              Los Vecino mezcal, honey, lime, cayenne pepper, pink hymalayan sea
+              salt
+            </p>
             <h5>Camaron Coctel</h5>
-            <p>Cazadores blanco tequila, Los Vecinos mezcal, lemon, roasted orgeat</p>
+            <p>
+              Cazadores blanco tequila, Los Vecinos mezcal, lemon, roasted
+              orgeat
+            </p>
             <h5>Chi Chi Torres</h5>
-            <p>Casadores reposado tequila, poblano chile, passionfruit, lime, habanero bitters</p>
+            <p>
+              Casadores reposado tequila, poblano chile, passionfruit, lime,
+              habanero bitters
+            </p>
             <h5>Quatro Verde</h5>
             <p>Los Vecinos Mezcal, poblano chile, lime, agave nectar, basil</p>
           </div>
           <div>
             <h3>RUM</h3>
-            <div class="items">
+            <div id="items">
               <h5>The Jacobo</h5>
               <p>Anaversario Rum, coconut, aperol, lime</p>
               <h5>Hotel Nacional</h5>
@@ -87,7 +115,10 @@
               <h5>El President</h5>
               <p>Havana Club White Rum, blanc vermouth, curacao, grenadine</p>
               <h5>The Getaway Car</h5>
-              <p>Apple Signature Aged Jamaician Rum, poblano chile, pineapple, lime, sugar cane</p>
+              <p>
+                Apple Signature Aged Jamaician Rum, poblano chile, pineapple,
+                lime, sugar cane
+              </p>
             </div>
           </div>
         </div>
