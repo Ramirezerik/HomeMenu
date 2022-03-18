@@ -1,0 +1,106 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: auto;
+    margin: auto;
+    background-color:#fcbb85;
+    padding: 20px;
+}
+
+#navBar{
+    background-color: cadetblue;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: darkred;
+}
+
+#navBar h1{
+    color: darkgoldenrod;
+    font-family: 'Megrim', cursive;
+    font-size: 125px;
+    font-weight: bold;
+}
+
+#navBar img{
+    height: 95px;
+    width: 95px;
+    margin-right: 10px;
+}
+
+
+#menu{
+    background-color: #fcbb85;
+    font-family: 'Megrim', cursive;
+    
+}
+
+#menu h2{
+    display: flex;
+    justify-content: center;
+    color: cornflowerblue;
+    margin: 15px;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+
+#menuDesign{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#items{
+    margin: 20px;
+    font-size: x-large;
+    border-style: solid;
+    border-color: rgb(151, 68, 47);
+    border-radius: 5px;
+}
+
+#design{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-right: 20px;
+    flex-direction: column;
+
+}
+
+#items h3{
+    font-family: 'Megrim', cursive;
+    margin: 20px;
+    font-weight: bolder;
+    font: 85px;
+}
+
+
+h5{
+    color:rgb(226 100 44);
+    font-family: 'Megrim', cursive;
+    font-weight: bolder;
+}
+
+
+p{
+    color: rgb(226 100 44);
+    font-family: 'Megrim', cursive;
+    font-weight: bold; 
+}
+
+p1{
+    color: peru;
+    font-family: 'Monofett', cursive;
+    font-size: 60px;
+}
+
+
