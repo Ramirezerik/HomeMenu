@@ -1,106 +1,147 @@
 /* CSS RESET */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-#wrapper{
-    width: auto;
-    margin: auto;
-    background-color:#fcbb85;
-    padding: 20px;
+#wrapper {
+  width: auto;
+  margin: auto;
+  /* background-color:#fcbb85; */
+  background-color: #decab0;
+  padding: 20px;
 }
 
-#navBar{
-    background-color: cadetblue;
-    padding: 12px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: darkred;
+#navBar {
+  background-color: #c94e45;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: darkred;
 }
 
-#navBar h1{
-    color: darkgoldenrod;
-    font-family: 'Megrim', cursive;
-    font-size: 125px;
-    font-weight: bold;
+#navBar h1 {
+  color: black;
+  font-family: "DM Serif Display", serif;
+  font-size: 125px;
+  font-weight: bold;
 }
 
-#navBar img{
-    height: 95px;
-    width: 95px;
-    margin-right: 10px;
+#navBar img {
+  height: 100px;
+  width: 100px;
+  margin-right: 10px;
+  border-radius: 48px;
 }
 
-
-#menu{
-    background-color: #fcbb85;
-    font-family: 'Megrim', cursive;
-    
+#menu {
+  background-color: #decab0;
+  font-family: "DM Serif Display", serif;
 }
 
-#menu h2{
-    display: flex;
-    justify-content: center;
-    color: cornflowerblue;
-    margin: 15px;
-    font-size: 80px;
-    font-weight: bold;
+#menu h2 {
+  display: flex;
+  justify-content: center;
+  /* color: cornflowerblue; */
+  color: #5a6050;
+  margin: 15px;
+  font-size: 80px;
+  font-weight: bold;
 }
 
-
-#menuDesign{
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
+#menuDesign {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 }
 
-#items{
-    margin: 20px;
-    font-size: x-large;
-    border-style: solid;
-    border-color: rgb(151, 68, 47);
-    border-radius: 5px;
+#items1 {
+  margin: 20px;
+  padding: 10px;
+  font-size: x-large;
+  border-style: solid;
+  border-color: rgb(151, 68, 47);
+  border-radius: 5px;
+  background-color: #f1ab39;
+  /* background: #fcbb85; */
 }
 
-#design{
-    display: flex;
-    /* justify-content: space-between; */
-    margin-right: 20px;
-    flex-direction: column;
-
+#design {
+  display: flex;
+  flex-direction: column;
 }
 
-#items h3{
-    font-family: 'Megrim', cursive;
-    margin: 20px;
-    font-weight: bolder;
-    font: 85px;
+#design img {
+  width: 600px;
+  height: 650px;
+  color-adjust: #fcbb85;
+  /* background: #fcbb85; */
+  border-radius: 8px;
 }
 
-
-h5{
-    color:rgb(226 100 44);
-    font-family: 'Megrim', cursive;
-    font-weight: bolder;
+#design2 img {
+  width: 365px;
+  height: 420px;
+  border-radius: 8px;
 }
 
-
-p{
-    color: rgb(226 100 44);
-    font-family: 'Megrim', cursive;
-    font-weight: bold; 
+#items3 {
+  margin: 20px;
+  padding: 10px;
+  background-color: #87a892;
+  font-size: x-large;
+  border-style: solid;
+  border-color: rgb(151, 68, 47);
+  border-radius: 5px;
 }
 
-p1{
-    color: peru;
-    font-family: 'Monofett', cursive;
-    font-size: 60px;
+#items4 {
+  margin: 20px;
+  padding: 10px;
+  background-color: #285651;
+  font-size: x-large;
+  border-style: solid;
+  border-color: rgb(151, 68, 47);
+  border-radius: 5px;
 }
 
+#items2 {
+  margin: 20px;
+  padding: 10px;
+  background-color: #e18a50;
+  font-size: x-large;
+  color: black;
+  border-style: solid;
+  border-color: rgb(151, 68, 47);
+  border-radius: 5px;
+}
 
+#items h3 {
+  font-family: "DM Serif Display", serif;
+  margin: 20px;
+  font-weight: bolder;
+  font: 85px;
+}
+
+h5 {
+  color: rgb(226 100 44);
+  font-family: "DM Serif Display", serif;
+  font-weight: bolder;
+}
+
+p {
+  color: rgb(226 100 44);
+  font-family: "DM Serif Display", serif;
+  font-weight: bold;
+}
+
+p1 {
+  color: peru;
+  font-family: "Monofett", cursive;
+  font-size: 60px;
+}
