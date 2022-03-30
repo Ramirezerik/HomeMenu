@@ -39,6 +39,8 @@
   border-radius: 48px;
 }
 
+/* MENU */
+
 #menu {
   background-color: #decab0;
   font-family: "DM Serif Display", serif;
@@ -47,7 +49,6 @@
 #menu h2 {
   display: flex;
   justify-content: center;
-  /* color: cornflowerblue; */
   color: #5a6050;
   margin: 15px;
   font-size: 80px;
@@ -68,7 +69,6 @@
   border-color: rgb(151, 68, 47);
   border-radius: 5px;
   background-color: #f1ab39;
-  /* background: #fcbb85; */
 }
 
 #design {
@@ -147,14 +147,34 @@ p1 {
   font-size: 60px;
 }
 
-#snacks{
+
+/* EXTRA ITEMS */
+#foods{
     display: flex;
-    /* justify-content: center; */
+    align-items: center;
     flex-direction: column;
+}
+
+#foods h5{
+    text-decoration: none;
 }
 
 #softDrinks{
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
+}
+
+#softDrinks h5{
+    text-decoration: none;
+}
+
+/* CREDIT */
+#footer{
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+h6{
+    font-family: "DM Serif Display", serif; 
 }
